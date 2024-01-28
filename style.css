@@ -1,0 +1,376 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Playfair+Display+SC:ital,wght@0,400;0,700;0,900;1,400;1,700;1,900&display=swap');
+.pt-6,
+.py-6 {
+  padding-top: 6rem !important;
+}
+
+.pr-6,
+.px-6 {
+  padding-right: 6rem !important;
+}
+
+.pb-6,
+.py-6 {
+  padding-bottom: 6rem !important;
+}
+
+.pl-6,
+.px-6 {
+  padding-left: 6rem !important;
+}
+@media (min-width: 768px) {
+  .pt-md-6,
+  .py-md-6 {
+    padding-top: 6rem !important;
+  }
+
+  .pr-md-6,
+  .px-md-6 {
+    padding-right: 6rem !important;
+  }
+
+  .pb-md-6,
+  .py-md-6 {
+    padding-bottom: 6rem !important;
+  }
+
+  .pl-md-6,
+  .px-md-6 {
+    padding-left: 6rem !important;
+  }
+}
+*{
+}
+
+.navbar{
+  position: absolute;
+  left: 0;
+  top: 0;
+  z-index: 2;
+  width: 100%;
+  font-family: 'Montserrat', sans-serif;
+  background: none !important;
+}.navbar *{
+  /* background: red; */
+  color: white;
+}.navbar-brand{
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 500;
+  font-size: 25px;
+  font-style: italic;
+}.navbar-brand:hover{
+  color: white;
+}.navbar-brand span{
+  /* text-decoration: line-through; */
+}.nav-item ul{
+  display: flex;
+  list-style: none;
+  gap: 30px;
+}.nav-item ul a{
+  text-decoration: none;
+  font-family: 'Montserrat', sans-serif;
+  letter-spacing: 5px;
+  font-weight: 400;
+}
+.mainHeader{
+  width: 100%;
+  height: 100vh;
+}.mainHeader img{
+  width: 100%;
+  height: 100vh;
+  object-fit: cover;
+  object-position: 50% 50%;
+  
+}.headerText{
+  padding: 0 6rem 0 6rem;
+  position: absolute;
+  left: 0;
+  bottom: 25%;
+  color: white;
+  font-family: 'Playfair Display SC', serif;
+  width: 50%;
+}.headerText h1{
+  font-size: 4rem;
+  font-weight: 800;
+}.headerText p{
+  margin: 0 0 30px 0 ;
+}.headerText a{
+  padding: 10px 25px;
+  border: 1px solid white;
+  color: white;
+  text-decoration: none;
+  font-family: 'Montserrat', sans-serif;
+  letter-spacing: 5px;
+  font-weight: 400;
+}.headerText a:hover{
+  text-decoration: line-through;
+}
+.location{
+  position: relative;
+
+}.location *{
+  color: black !important;
+}
+
+/* Fix header to resize */
+
+
+.indexHotspot{
+  padding: 4rem 10rem 5rem 10rem;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  background-color: white;
+  font-family: 'Playfair Display', serif;
+
+
+}
+
+
+
+/* Home Split */
+.split{
+  margin-top: 4rem;
+  margin-bottom: 4rem;
+
+  /* background-color: #e2e2e2; */
+  color: black;
+}.splitOne{
+  padding-left: 6rem;
+  max-height: 530px;
+}.split > *{
+  margin: 3rem 0;
+}.rightSplit{
+  overflow: hidden;
+  position: relative;
+  /* height: 100%; */
+}.splitTwo .rightSplit::before{
+  position: absolute;
+  content: '';
+  top: 0;
+  right: -1px;
+  width: 100%;
+  height: 100%;
+  background: rgb(255,255,255);
+  background: linear-gradient(90deg, rgba(255,255,255,0) 0%, rgba(0,0,0,0.8015406846332283) 100%, rgba(0,0,0,0.4205883036808473) 100%); 
+}.rightSplit .textBox{
+  padding-right: 4rem;
+  position: absolute;
+  right: 0;
+  top: 50%;
+  text-align: end;
+  transform: translate(-0%, -50%);
+  color: white;
+  width: 60%;
+}.rightSplit .textBox h2{
+  font-family: 'Playfair Display SC', serif;
+  font-size: 2.5rem;
+  font-weight: 800;
+}.rightSplit .textBox span{
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 200;
+}.rightSplit img{
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  object-position: center;
+}.leftSplit{
+  padding: 2rem .5rem 2rem 0;
+}.leftSplit h1{
+  font-family: 'Playfair Display SC', serif;
+  font-size: 2.5rem;
+  font-weight: 800;
+  margin-bottom: 1rem;
+}.leftSplit a{
+  display:inline-block;
+  background-color: black;
+  margin-top: 1rem;
+  padding: 10px 25px;
+  border: 1px solid black;
+  color: white;
+  text-decoration: none;
+  font-family: 'Playfair Display SC', serif;
+  letter-spacing: 5px;
+  font-weight: 400;
+  
+}.leftSplit p{
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 200;
+  margin-bottom: .5rem;
+  
+
+}.splitTwo .leftSplit{
+  padding: 2rem 0rem 2rem 4rem;
+  color: white;
+}.splitTwo{
+  padding-right: 6rem;
+  margin-top: 4rem;
+  padding-right: 6rem;
+  margin-bottom: 4rem;
+  background-color: black;
+}.rightSplit, .leftSplit{
+  max-height: 530px;
+  overflow: hidden;
+
+}.splitTwo a{
+  background-color: white;
+  color: black;
+}.splitOne img, .splitTwo img{
+  height: 100%;
+  width: 100%;
+}
+
+
+.attractions{
+  position: relative;
+}.attractions img{
+  width: 100%;
+  object-fit: cover;
+  object-position: center;
+}.attractions h1{
+  position: absolute;
+  bottom: 25%;
+  left: 0;
+  color: white;
+  font-family: 'Playfair Display SC', serif;
+  font-weight: 700;
+  padding: 0 6rem;
+}.attractionsCarousel{
+  margin-top: 3rem;
+  margin-bottom: 3rem;
+}.attractionsGal{
+  margin-top: 3rem;
+  margin-bottom: 3rem;
+  flex-wrap: wrap;
+  display: flex;
+  gap: 1rem;
+  box-sizing: border-box;
+
+}.attractionsGal .card{
+  flex: 1 1 calc(100%/5);
+  box-sizing: border-box;
+  border-radius: 0 !important;
+  width: calc(100%/4) !important;
+  border: none;
+}.attractionsGal .card img{
+  max-height: 225px;
+  height: 100%;
+  object-fit: cover;
+  border-radius: 0 !important;
+
+  object-position: center;
+}.attractionsGal .card h5{
+  font-family: 'Playfair Display SC', serif;
+  font-weight: 700;
+}.attractionsGal .card p{
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 200;
+  font-size: .7rem;
+}.attractionsGal .card a{
+  background-color: black;
+  border-radius: 0 !important;
+  padding: 5px 15px;
+  font-size: .75rem;
+  border: none;
+  font-family: 'Playfair Display SC', serif;
+
+}
+
+
+.FAQTables{
+  padding-top: 4rem;
+  padding-bottom: 4rem;
+}thead{
+  background-color: black !important;
+  
+}thead *, footer h6{
+  background-color: black !important;
+  font-family: 'Playfair Display SC', serif;
+  font-size: .7rem;
+  font-weight: 800;
+  letter-spacing: 5px;
+}tbody *, footer .row{
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 200;
+  font-size: .7rem;
+
+}tbody a{
+  color: black;
+}
+
+@media only screen and (max-width: 1148px){
+  .split p, .split span{
+    font-size: .75rem;
+  }.rightSplit .textBox{
+    width: 75%;
+  }
+}
+@media only screen and (max-width: 804px){
+  .rowOfImg .container{
+    padding: 0 !important;
+  }
+  .splitOne, .rowOfImg{
+    padding-left: 1.5rem !important;
+  }.splitTwo, .rowOfImg{
+    padding-right: 1.5rem !important;
+  }.leftSplit{
+    padding: 2rem 0rem 2rem 1.5rem !important;
+  }.rightSplit .textBox{
+    padding-right: 1.5rem;
+  }.headerText{
+    padding: 0 1.5rem 0 1.5rem;
+    width: 100%;
+  }nav .container-fluid, .attractions h1, .FAQTables, .attractionsGal, .attractionsCarousel{
+    padding-left: 1.5rem !important;
+    padding-right: 1.5rem !important;
+  }.attractionsGal .card{
+    flex: 1 1 calc(100%/4) !important;
+    width: calc(100%/2) !important;
+    
+  }.attractionsGal .card img{
+    height: 225px;
+  }
+}
+@media only screen and (max-width: 662px){
+  .rowOfImg{
+    padding: 0rem !important;
+    max-width: 100% !important;
+  }
+  .rowOfImg .container{
+    padding: 0rem !important;
+  }
+  .splitOne{
+    padding-left: .5rem !important;
+  }.splitTwo{
+    padding-right: 0rem !important;
+  }.leftSplit{
+    width: 100%;
+    padding: 2rem 0rem 2rem .5rem !important;
+  }.rightSplit{
+    width: 100%;
+  }.rightSplit .textBox{
+    padding-right: .5rem;
+  }.headerText{
+    padding: 0 1.5rem 0 .5rem;
+    width: 100%;
+  }.attractionsGal .card{
+    flex: 1 1 calc(100%/2) !important;
+    width: calc(100%/1) !important;
+    
+  }nav .nav-item a{
+    font-size: .5rem;
+  }.nav-item ul{
+    gap: 10px;
+    padding-left: 0 !important;
+    margin-left: 0 !important;
+  }nav .container-fluid{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+}
+
+
